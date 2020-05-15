@@ -15,10 +15,10 @@ We will deploy to Cloud as a WAR
 
 ## Web Application
 
-- http://localhost:8080/login with in28minutes/dummy as credentials
+- http://localhost:8080/login with asad02/dummy as credentials
 - You can add, delete and update your todos
 - Spring Security is used to secure the application
-- `com.in28minutes.springboot.web.security.SecurityConfiguration` contains the in memory security credential configuration.
+- `com.asad02.springboot.web.security.SecurityConfiguration` contains the in memory security credential configuration.
 
 
 ## KOMPOSE 
@@ -128,7 +128,7 @@ Fetching table and column names from `todos` for auto-completion... Press ^C to 
 +----+--------------+---------+----------------------------+-------------+
 | id | description  | is_done | target_date                | user        |
 +----+--------------+---------+----------------------------+-------------+
-|  1 | Default Desc | 0       | 2019-06-26 18:30:00.000000 | in28minutes |
+|  1 | Default Desc | 0       | 2019-06-26 18:30:00.000000 | asad02 |
 +----+--------------+---------+----------------------------+-------------+
 1 row in set (0.0032 sec)
 
